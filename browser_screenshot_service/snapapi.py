@@ -104,7 +104,7 @@ def get_screenshot(icao):
     # second argument to WebDriverWait = timeout in seconds
     #cond = EC.presence_of_all_elements_located( (selenium.webdriver.common.by.By.CSS_SELECTOR, "#map_canvas") )
     try:
-      cond = EC.visibility_of_all_elements_located( (selenium.webdriver.common.by.By.CSS_SELECTOR, "#map_canvas") )
+      cond = EC.invisibility_of_element_located( (selenium.webdriver.common.by.By.XPATH, "//*[@id='loader']") )
       elem0 = selenium.webdriver.support.wait.WebDriverWait(browser, 20).until(cond)
       log.debug("okay, got the basic canvas.")
     except selenium.common.exceptions.TimeoutException as ex:
