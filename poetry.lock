@@ -665,13 +665,13 @@ testing = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "pygm
 
 [[package]]
 name = "pytest-ruff"
-version = "0.3.1"
+version = "0.4.0"
 description = "pytest plugin to check ruff requirements."
 optional = false
-python-versions = ">=3.8,<4.0"
+python-versions = "<4.0,>=3.8"
 files = [
-    {file = "pytest_ruff-0.3.1-py3-none-any.whl", hash = "sha256:008556576fb1bda93a432ad381432bfd5575cc94627d22bfdece46561b8e4f7f"},
-    {file = "pytest_ruff-0.3.1.tar.gz", hash = "sha256:c9f7392a3384af73a6a72741a4035a605480a7a8e7a4bd8da05a98e6664cffb5"},
+    {file = "pytest_ruff-0.4.0-py3-none-any.whl", hash = "sha256:e421d3096618a0878616f2db9716526454a8348eb9db6cfe4ba926793066ae20"},
+    {file = "pytest_ruff-0.4.0.tar.gz", hash = "sha256:551876108991f3dd43d719988f8224a29c6fc6d50e2284ba1ffd389c0bd3610c"},
 ]
 
 [package.dependencies]
@@ -1192,4 +1192,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "addc430998bd4369643a488f15802f9cc3fe74b7ff3e504f2500523e326d003d"
+content-hash = "1fc8a1a9f5829cdece3b4b918d1d48ea3931c46bfda2a130ef153976eddce67b"
