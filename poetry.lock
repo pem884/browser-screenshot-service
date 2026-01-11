@@ -892,8 +892,8 @@ test = ["flask", "mypy", "pytest", "pytest-cov", "pytest-mock", "pytest-rerunfai
 [package.source]
 type = "git"
 url = "https://github.com/kennethreitz/responder.git"
-reference = "7b28390"
-resolved_reference = "7b28390\n"
+reference = "944d47da45db16b904ced22fb731b3c3959406d6"
+resolved_reference = "944d47da45db16b904ced22fb731b3c3959406d6"
 
 [[package]]
 name = "rfc3986"
@@ -1413,4 +1413,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.14"
-content-hash = "76707784f3ef6ee53975ce5689449c1651c66372f76849df8218b86c9f522a02"
+content-hash = "f8f18d33c0b354950444767777712fdda930ce8978b354a7d1a877177af88085"
