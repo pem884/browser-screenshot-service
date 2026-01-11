@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "browser-screenshot-service"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.14"
+selenium = "^4.18.1"
+timeout-decorator = "^0.5.0"
+responder = {git = "https://github.com/kennethreitz/responder.git", rev = "944d47da45db16b904ced22fb731b3c3959406d6"}
+
+[tool.poetry.group.dev.dependencies]
+pytest-ruff = "^0.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
